@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(203, 240, 252);
+}
+
+.title{
+    margin-top:50px ;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(250, 248, 248);
+    width: 260px;
+    height: 130px;
+}
+
+#t_name{
+    font-size: 39px;
+    margin-top: 0px;
+    font-family: cursive;
+}
+
+#t_name:hover{
+    color: rgb(74, 131, 238);
+    font-size: 50px;
+    transition: 0.3s;
+}
+#suhead{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.bmj{
+    display: inline;
+    float: left;
+}
+#bmj{
+    font-size:50px;
+    color: rgb(4, 78, 121);
+    margin-left: 80px;
+}
+
+.details{
+    background-color: rgb(240, 237, 237);
+    
+    display: inline;
+    float:inline-start;
+    width:800px;
+    height: 100px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.details:hover{
+    background: rgb(170, 142, 126);
+    transition: 0.2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 830px;
+    height:110px;
+    padding: 4px;
+    
+}
+#details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#details:hover{
+    font-size: 24px;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+
+
+.green{
+    float: left;
+    background-color: green;
+    height: 90px;
+    width: 450px; 
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.blue{
+    background-color: rgb(77, 161, 240);
+    float: right;
+    height: 83px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 380px;
+    
+}
+
+.card{
+    display: inline;
+    float: right;
+    margin-left: 400px;
+}
+
+.card_data{
+    display: inline;
+    float:inline-start;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+

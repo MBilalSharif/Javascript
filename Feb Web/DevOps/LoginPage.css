@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(151, 84, 22, 0.377);
+}
+
+.container{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(194, 120, 67, 0.705);
+    border: rgb(15, 8, 3) solid 1px;
+    border-radius: 5px;
+    position: absolute;
+    left:  40%;
+    top:30%;
+}

@@ -1,0 +1,75 @@
+/* portfolio.css */
+
+/* Light Mode Styles */
+body {
+    background-color: #455769;
+    color: #343a40;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #7ea8df; 
+    
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.card.dark-mode {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+
+
+.footer.dark-mode {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+/* Dark Mode for Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000;
+}
+
+body.dark-mode .carousel-control-prev-icon,
+body.dark-mode .carousel-control-next-icon {
+    background-color: #ffffff;
+}
+
+
+#Contact.dark-mode{
+    background-color: black;
+    color:white;
+}
+#Contact p.dark-mode{
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}

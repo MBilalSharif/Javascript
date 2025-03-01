@@ -1,0 +1,153 @@
+
+body{
+   margin: auto;
+    background-color: rgb(230, 235, 240);
+   
+    
+}
+
+.left{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+    float: left;
+    height: 660px;
+    margin-top: 0px;
+    width: 340px;
+    background-color: rgb(246, 250, 253);
+    
+}
+
+.right{
+    display: inline;
+    float: inline-start;
+    background-color: rgb(227, 235, 236);
+    width: 940px;
+    height: 660px;
+    padding-left: 40px;
+}
+
+.summary{
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+    width: 800px;
+    margin-bottom: 0px;
+}
+
+ .Reference{
+
+    margin-top: 50px;
+    padding-left: 10px;
+    float: inline-end;
+    background-color:rgb(255, 255, 255);
+    border: 20px;
+    border-color: rgb(175, 154, 154);
+    height: 250px;
+    width: 150px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style:hidden;
+    
+}
+
+.contact{
+    float:right;
+    margin-top: 150px;
+    margin-left: 20px;
+    background-color:rgb(130, 161, 182);
+    font-size: 24px;
+    color: rgb(218, 207, 195);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 330px;
+    height: 200px;
+    border-radius: 700px;
+    border-width: px;
+    border-color: rgb(185, 129, 56);
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#name {
+    margin-left: 0px;
+    color: rgb(79, 84, 151);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 8px;
+}
+#desc{
+    margin-top: 3px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+}
+
+#list{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(121, 85, 52);
+}
+#skill{
+    font-family: serif;
+    color: rgb(17, 49, 49);
+}
+
+#edu{
+    color: rgb(77, 108, 167);
+    margin-top: 15px;
+    font-size: 32px;
+    margin-left: 1px;
+}
+
+#study{
+    font-size: 30px;
+    color: rgb(119, 119, 119);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#details{
+    font-size: 20px;
+    color: rgb(34, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#info{
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#phone{
+    color: rgb(124, 58, 11);
+    font-size: large;
+}
+
+#heading{
+color: rgb(151, 98, 27);
+}
+
+#refer{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(145, 103, 48);
+   
+}
+
+#Sdetail{
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(148, 131, 110);
+}
+
+#h2summary{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(121, 121, 121);
+}
+
